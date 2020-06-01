@@ -1,12 +1,12 @@
 import os, re
 
 
-with open ('C:/bitola_.txt',"r") as file1:
+with open ('C:/lista de bitola_.txt',"r") as file1:
         bitola=[]
         bitola=file1.readlines()
 file1.close()
 
-with open ('C:/material_.txt',"r") as file2:
+with open ('C:/lista de material_.txt',"r") as file2:
         material=[]
         material=file2.readlines()
 file2.close()
@@ -19,8 +19,8 @@ file3.close()
 
 
 
-directory = os.listdir('/teste3')
-os.chdir('/teste3')
+directory = os.listdir('/caminhodosarquivos')
+os.chdir('/caminhodosarquivos')
 adicionaesp=0 
 espaco= []
 
