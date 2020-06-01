@@ -23,8 +23,7 @@ directory = os.listdir('/teste3')
 os.chdir('/teste3')
 adicionaesp=0 
 espaco= []
-#criador 150 de espaços que já é necessario
-#for i in range(0,150):
+
 num_de_espacos=400
 esp=' '
 for i in range(1,num_de_espacos+1):
@@ -66,13 +65,13 @@ for j in range(0,i):
             arq_x.append(int(espacos[k]))
             l=l+1
 print(arq_x)
-# verifica qual arquivo é igual pega a posiçao
 
 
 
 
 
-#modificar ate aqui
+
+
 
 for l in range(0,l):
     aux=arq_x[l]
